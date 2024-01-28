@@ -1,0 +1,86 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "how to vote",
+      "patterns": [
+        "Vote kaise cast karsekte hain",
+        "Vote kaise dalein",
+        "what are the necessary steps for voting",
+        "Do we have to register ourself in order to vote"
+      ],
+      "responses": [
+        "Vote can be cast by first register yourself in the system and login to cast vote",
+        "First have to register yourself and then login into the system, there you can find the option to cast vote"
+      ]
+    },
+    {
+      "tag": "safety",
+      "patterns": [
+        "How do we know that our votes are safe",
+        "Are there any chances of my vote being not cast or cast to the wrong candidate",
+        "Is there is any chances of misusing the system",
+        "Does the system ensures that our votes are safe?"
+      ],
+      "responses": [
+        "Our system is fool proof and there are very less chances of being misuse",
+        "The system ensures that the vote is casted to the voter respective candidate and not being cast to other"
+      ]
+    },
+    {
+      "tag": "multiple votes",
+      "patterns": [
+        "Kia hum aik sai ziada vote cast karsekte hain?",
+        "Can we cast vote more than ones?",
+        "Can we cast votes twice?"
+      ],
+      "responses": [
+        "The system ensures that the voter can cast vote only ones",
+        "No, voter can not cast vote more than ones",
+        "Jee nahi! ap aik sai ziada vote cast nahi karsekte"
+      ]
+    },
+    {
+      "tag": "candidate register",
+      "patterns": [
+        "How can a candidate can register themself into the system",
+        "Ummed var kaise system ko istemal kar sakta hai",
+        "how can a candidate register himself",
+        "how can a candidate register herself"
+      ],
+      "responses": [
+        "Candidate can use the system by first registering themselves into the system and then login into the system to use it"
+      ]
+    }
+  ]
+}
